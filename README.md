@@ -16,7 +16,7 @@ VGG-A with/without Batch Normalization on CIFAR-10
 ---
 
 ## 仓库结构
-VGG_BatchNorm/
+VGG_BatchNorm
 ├── data
 ├── models
 ├── reports
