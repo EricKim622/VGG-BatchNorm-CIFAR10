@@ -15,32 +15,11 @@ VGG-A with/without Batch Normalization on CIFAR-10
 
 ---
 
-## 仓库结构
-VGG_BatchNorm/
-├── data/
-│   ├── cifar-10-python.tar.gz
-│   ├── __init__.py
-│   └── loaders.py
-├── models/
-│   ├── __init__.py
-│   └── vgg.py
-├── reports/
-│   └── figures/
-│       ├── acc_curve_bn.png
-│       ├── acc_curve_no_bn.png
-│       ├── final_comparison.png
-│       ├── loss_bn.png
-│       ├── loss_curve_bn.png
-│       ├── loss_curve_no_bn.png
-│       └── loss_no_bn.png
-├── utils/
-├── VGG_Loss_Landscape.py
-├── thelast.ipynb
-└── README.md
+
 
 ## 运行环境配置
 
-# 1. 创建虚拟环境（可选）
+# 1. 创建虚拟环境
 conda create -n vgg-bn python=3.8
 conda activate vgg-bn
 
